@@ -1,0 +1,20 @@
+baseURL: "https://example.org/"
+languageCode: "en-gb"
+title: "Wright writes"
+
+module:
+  imports:
+    disable: false
+    ignoreConfig: false
+    ignoreImports: true
+    path: "github.com/adityatelange/hugo-PaperMod" # theme
+
+params:
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+
+markup:
+  highlight:
+    lineNos: true
+    style: "doom-one"
