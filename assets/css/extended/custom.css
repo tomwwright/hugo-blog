@@ -1,4 +1,13 @@
 :root {
   --nav-width: 720px;
   --main-width: 720px;
+  --code-block-bg: #31363f;
+}
+
+.header {
+  margin-top: 36px;
+}
+
+.page-header, .post-header {
+  margin-top: 0px;
 }
