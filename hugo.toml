@@ -7,17 +7,13 @@ title = 'Wright writes'
     disable = false
     ignoreConfig = false
     ignoreImports = true
-    path = "github.com/brianreumere/plague"  # Theme
+    path = "github.com/adityatelange/hugo-PaperMod"  # Theme
 
 [params]
-  siteHeaderText = "Wright writes"
-  siteFooterText = "Powered by [Hugo](https://gohugo.io/) and the [plague](https://github.com/brianreumere/plague) theme."
+  ShowShareButtons = false
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
 
-  colors = "default"
-
-  [params.hcard]
-    fullName = "Tom Wright"
-    showLocation = true
-    city = "Melbourne"
-    region = "VIC"
-    country = "Australia"
+[markup]
+  [markup.highlight]
+    style = 'doom-one'
