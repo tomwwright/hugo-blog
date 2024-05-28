@@ -1,3 +1,23 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'en-gb'
+title = 'Wright writes'
+
+[module]
+  [[module.imports]]
+    disable = false
+    ignoreConfig = false
+    ignoreImports = true
+    path = "github.com/brianreumere/plague"  # Theme
+
+[params]
+  siteHeaderText = "Wright writes"
+  siteFooterText = "Powered by [Hugo](https://gohugo.io/) and the [plague](https://github.com/brianreumere/plague) theme."
+
+  colors = "default"
+
+  [params.hcard]
+    fullName = "Tom Wright"
+    showLocation = true
+    city = "Melbourne"
+    region = "VIC"
+    country = "Australia"
