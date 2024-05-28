@@ -15,13 +15,50 @@ Content
 
 Content
 
-Content
+| Syntax    | Description |   Test Text |
+| :-------- | :---------: | ----------: |
+| Header    |    Title    | Here's this |
+| Paragraph |    Text     |    And more |
 
 Content
 
 Content
 
-Content
+### Admonitions
+
+> [!NOTE]
+> This is a note.
+
+> [!TIP]
+> This is a tip. (Supported since 14 Nov 2023)
+
+> [!IMPORTANT]
+> Crutial information comes here.
+
+> [!CAUTION]
+> Negative potential consequences of an action. (Supported since 14 Nov 2023)
+
+> [!WARNING]
+> Critical content comes here.
+
+
+> **NOTE**
+> 
+> fgfgf
+{ .note }
+
+> **INFO**
+> 
+> blah blah
+{ .info }
+
+> **WARNING**
+> 
+> blah blah
+{ .warn }
+
+> fgfg
+{ .info }
 
 Content
 

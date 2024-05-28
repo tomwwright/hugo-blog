@@ -1,0 +1,80 @@
+
+blockquote.note, blockquote.warn, blockquote.info {
+  padding: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  border-radius: 0px;
+}
+
+blockquote.info {
+  background: var(--colours-indigo-soft);
+  border-inline-start: 6px solid var(--colours-indigo-3);
+}
+
+blockquote.note {
+  background: var(--colours-purple-soft);
+  border-inline-start: 6px solid var(--colours-purple-3);
+}
+
+blockquote.warn {
+  background: var(--colours-yellow-soft);
+  border-inline-start: 6px solid var(--colours-yellow-3);
+}
+
+blockquote.info > :last-child, blockquote.note > :last-child, blockquote.warn > :last-child {
+  margin-bottom: 0;
+}
+
+:root {
+  --colours-gray-1: #dddde3;
+  --colours-gray-2: #e4e4e9;
+  --colours-gray-3: #ebebef;
+  --colours-gray-soft: rgba(142, 150, 170, .14);
+  --colours-indigo-1: #3451b2;
+  --colours-indigo-2: #3a5ccc;
+  --colours-indigo-3: #5672cd;
+  --colours-indigo-soft: rgba(100, 108, 255, .14);
+  --colours-purple-1: #6f42c1;
+  --colours-purple-2: #7e4cc9;
+  --colours-purple-3: #8e5cd9;
+  --colours-purple-soft: rgba(159, 122, 234, .14);
+  --colours-green-1: #18794e;
+  --colours-green-2: #299764;
+  --colours-green-3: #30a46c;
+  --colours-green-soft: rgba(16, 185, 129, .14);
+  --colours-yellow-1: #a8702c;
+  --colours-yellow-2: #9d6900;
+  --colours-yellow-3: #f7a500;
+  --colours-yellow-soft: rgba(234, 179, 8, .14);
+  --colours-red-1: #b8272c;
+  --colours-red-2: #d5393e;
+  --colours-red-3: #e0575b;
+  --colours-red-soft: rgba(244, 63, 94, .14);
+}
+
+.dark {
+  --colours-gray-1: #515c67;
+  --colours-gray-2: #414853;
+  --colours-gray-3: #32363f;
+  --colours-gray-soft: rgba(101, 117, 133, .16);
+  --colours-indigo-1: #a8b1ff;
+  --colours-indigo-2: #5c73e7;
+  --colours-indigo-3: #3e63dd;
+  --colours-indigo-soft: rgba(100, 108, 255, .16);
+  --colours-purple-1: #c8abfa;
+  --colours-purple-2: #a879e6;
+  --colours-purple-3: #8e5cd9;
+  --colours-purple-soft: rgba(159, 122, 234, .16);
+  --colours-green-1: #3dd68c;
+  --colours-green-2: #30a46c;
+  --colours-green-3: #298459;
+  --colours-green-soft: rgba(16, 185, 129, .16);
+  --colours-yellow-1: #f9b44e;
+  --colours-yellow-2: #da8b17;
+  --colours-yellow-3: #a46a0a;
+  --colours-yellow-soft: rgba(234, 179, 8, .16);
+  --colours-red-1: #f66f81;
+  --colours-red-2: #f14158;
+  --colours-red-3: #b62a3c;
+  --colours-red-soft: rgba(244, 63, 94, .16);
+}

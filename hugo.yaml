@@ -18,3 +18,7 @@ markup:
   highlight:
     lineNos: true
     style: "doom-one"
+  goldmark:
+    parser:
+      attribute:
+        block: true
