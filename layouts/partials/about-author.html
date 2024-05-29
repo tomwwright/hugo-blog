@@ -1,0 +1,8 @@
+{{ $image := resources.Get "images/profile.jpg" }}
+<div class="about-author">
+  <img src="{{ $image.RelPermalink }}">
+  <div>
+    <p>Written by <strong>Tom Wright</strong> who lives and works in Melbourne, Australia. This is some more content to make it wrap.</p>
+    {{ partial "social_icons.html" }}
+  </div>
+</div>

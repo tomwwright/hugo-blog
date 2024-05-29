@@ -1,13 +1,64 @@
 :root {
   --nav-width: 720px;
   --main-width: 720px;
-  --code-block-bg: #31363f;
+  --code-block-bg: rgb(49, 54, 63);
+  --theme: rgb(240, 240, 240);
+  --top-margin: 48px;
 }
 
 .header {
-  margin-top: 36px;
+  margin-top: var(--top-margin);
 }
 
 .page-header, .post-header {
   margin-top: 0px;
+}
+
+.main {
+  min-height: calc(99vh - var(--top-margin) - var(--header-height) - var(--footer-height));
+}
+
+.post-footer hr {
+  margin: 30px 0;
+  height: 2px;
+  background: var(--tertiary);
+  border: 0;
+}
+
+.logo a {
+  font-size: 48px;
+}
+
+.logo.title-small a {
+  font-size: 24px;
+}
+
+.about-author {
+  display: flex;
+  margin: var(--gap) 0px;
+  margin-bottom: calc(3 * var(--gap));
+  gap: var(--gap);
+}
+
+.about-author img {
+  border-radius: 8px;
+  width: 128px;
+  height: 128px;
+}
+
+.about-author > :last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social-icons a {
+  border: var(--primary) solid 2px;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.social-icons a svg {
+  height: 18px;
+  width: 18px;
 }

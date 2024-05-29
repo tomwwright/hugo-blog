@@ -1,6 +1,3 @@
 ---
-title: posts
-menu:
-  main:
-    weight: 1
+title: Posts
 ---

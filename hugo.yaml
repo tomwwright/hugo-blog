@@ -10,9 +10,17 @@ module:
     path: "github.com/adityatelange/hugo-PaperMod" # theme
 
 params:
-  ShowShareButtons: false
-  ShowReadingTime: true
-  ShowCodeCopyButtons: true
+  showShareButtons: false
+  showReadingTime: true
+  showCodeCopyButtons: true
+  showWordCount: true
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/tomwwright"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/tomwwright"
+  mainSections: ["posts", "papermod"]
+  disableSpecial1stPost: true
 
 markup:
   highlight:
