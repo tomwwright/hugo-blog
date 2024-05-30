@@ -8,8 +8,6 @@ I've been meaning to create a new space to post things for a while. I have a lot
 
 <!--more-->
 
-## Writing things down
-
 Writing things down allows you to **save yourself the trouble of repeating yourself**. Some HTML on the internet is available to an interested party 24 hours a day, 7 days a week, and is also **less likely to shit the bed in articulating** whatever wisp of experience or wisdom was on offer because it hasn't had any coffee yet.
 
 Writing things down also **forces you to make sense** because words have to be `written. one. at. a. time.` This means that your wild, wooly thoughts must be `serialised. into. a. sequence. of. coherent. information` that is useful to another human being. Thoughts are fragile, vague, and complex, and words often feel sort of blocky and obtuse by comparison, so this process is difficult. Inevitably, it leads to a first attempt that on review feels like:
