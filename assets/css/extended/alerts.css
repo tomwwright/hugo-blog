@@ -6,6 +6,10 @@ blockquote.note, blockquote.warn, blockquote.info {
   border-radius: 0px;
 }
 
+blockquote strong {
+  font-weight: 500;
+}
+
 blockquote.info {
   background: var(--colours-indigo-soft);
   border-inline-start: 6px solid var(--colours-indigo-3);
