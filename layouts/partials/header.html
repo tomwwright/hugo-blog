@@ -11,6 +11,7 @@
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+                {{ readFile "assets/images/logo.svg" | safeHTML }}
                 {{ partial "title-icon.html" . }}
                 {{- $label_text -}}
             </a>
