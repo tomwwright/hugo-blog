@@ -23,6 +23,8 @@ params:
       url: "https://linkedin.com/in/tomwwright"
   mainSections: ["posts", "papermod"]
   disableSpecial1stPost: true
+  footer:
+    text: by Tom Wright
 
 markup:
   highlight:
