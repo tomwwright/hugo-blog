@@ -13,7 +13,7 @@ Writing things down also **forces you to make sense** because words have to be `
 
 > Oh, wow, nobody could decipher or absorb anything useful out of this, and I have no idea what I'm talking about
 
-While daunting, consider this feeling **an act of :sparkles: _empathy_ :sparkles: towards your audience**. Thankfully, unlike a conversation, if you feel unclear, you can _just rewrite it_. You will often find that it wasn't that the words were too obtuse for your thoughts, it was that **the thoughts were too vague for words**.
+While daunting, consider this feeling **an act of :sparkles: _empathy_ :sparkles: towards your audience**. Thankfully, unlike a conversation, if you feel unclear you can _just rewrite it_. You will often find that it wasn't that the words were too obtuse for your thoughts, it was that **the thoughts were too vague for words**.
 
 Writing things down, by necessity, allows us to refine and clarify our own thoughts on the matter at hand.
 
