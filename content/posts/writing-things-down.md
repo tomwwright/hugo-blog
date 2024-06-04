@@ -1,6 +1,8 @@
 ---
 title: 'Writing things down'
 date: 2024-05-30T19:19:37+10:00
+tags:
+  - Writing
 ---
 
 I've been meaning to create a new space to post things for a while. I have a lot of thoughts about how software is built and how teams work together. I find myself sharing these thoughts a lot with people in conversation, but _I never seem to write them down_.
