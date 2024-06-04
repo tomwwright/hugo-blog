@@ -2,15 +2,20 @@
 title: 'Creating a new Hugo blog'
 date: 2024-05-30T22:42:37+10:00
 draft: true
+tags:
+  - Writing
+  - Tech
 ---
 
 Eh, I hate the word "blog". I don't know why, it just gives me an _ick_. But there isn't a better way to describe what you're reading right now. It's a blog. My new blog. Thanks for dropping by.
 
 <!--more-->
 
-I find that addressing the barrier to entry to writing is important if I'm going to get anything done. Given that I work in software, you might expect that I would _enjoy_ tinkering with some fiddly, homespun frankenblog that is broken more often than it works. But that couldn't be further from the truth -- unnecessary complexity in software and the wasted time that goes with it makes me want to play in traffic. Writing is something I enjoy once I sit down, but I'm sensitive to any bumps or points of friction in editing, publishing, or sharing what I've written.
+I find that addressing the barrier to entry to writing is important if I'm going to get anything done. Given that I work in software, you might expect that I would _enjoy_ tinkering with some fiddly, homespun frankenblog that is broken more often than it works. But that couldn't be further from the truth -- unnecessary complexity in software and the wasted time that goes with it makes me want to play in traffic.
 
-I'm not an experienced technical writer, but we're all starting from somewhere, and so in this post I will share some of my experiences which informed how I designed this new blog, which uses [Hugo](https://gohugo.io/).
+Writing is something I enjoy once I sit down, but I find I am sensitive to any bumps or points of friction in editing, publishing, or sharing what I've written.
+
+I'm not an experienced technical writer, but we're all starting from somewhere, and so in this post I thought I would share some of my experiences which informed how I designed this new blog, which uses [Hugo](https://gohugo.io/).
 
 ## Past instances of writing things
 
