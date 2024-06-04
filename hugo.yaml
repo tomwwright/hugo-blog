@@ -16,11 +16,14 @@ params:
   showReadingTime: true
   showCodeCopyButtons: true
   showWordCount: true
+  ShowRssButtonInSectionTermList: true
   socialIcons:
     - name: "github"
       url: "https://github.com/tomwwright"
     - name: "linkedin"
       url: "https://linkedin.com/in/tomwwright"
+    - name: "rss"
+      url: "https://tomwwright.com/index.xml"
   mainSections: ["posts", "papermod"]
   disableSpecial1stPost: true
   footer:
