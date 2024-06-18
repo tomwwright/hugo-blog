@@ -1,47 +1,46 @@
 ---
 title: 'Creating a new Hugo blog'
 date: 2024-05-30T22:42:37+10:00
-draft: true
 tags:
   - Writing
   - Tech
 ---
 
-Eh, I hate the word "blog". I don't know why, it just gives me an _ick_. But there isn't a better way to describe what you're reading right now. It's a blog. My new blog. Thanks for dropping by.
+I'm not fond of the word "blog". I don't know why but it just gives me an _ick_. But there isn't a better way to describe what you're reading right now. It's a blog. My new blog. Thanks for dropping by.
 
 <!--more-->
 
-I find that addressing the barrier to entry to writing is important if I'm going to get anything done. Given that I work in software, you might expect that I would _enjoy_ tinkering with some fiddly, homespun frankenblog that is broken more often than it works. But that couldn't be further from the truth -- unnecessary complexity in software and the wasted time that goes with it makes me want to play in traffic.
+I find the barrier to entry is the most important thing if I'm going to get any wriing done. Given that I work in software, you might expect that I would _enjoy_ fiddling with some homespun frankenblog that is broken more often than not. But you would be wrong -- unnecessary complexity in software, and the wasted time that goes with it, makes me want to play in traffic.
 
-Writing is something I enjoy once I sit down, but I find I am sensitive to any bumps or points of friction in editing, publishing, or sharing what I've written.
+Writing is something I enjoy once I sit down, but I baulk and procrastinate whenever there are bumps or points of friction in editing, publishing, and sharing what I've written.
 
-I'm not an experienced technical writer, but we're all starting from somewhere, and so in this post I thought I would share some of my experiences which informed how I designed this new blog, which uses [Hugo](https://gohugo.io/).
+I'm not an experienced technical writer, but we're all starting from somewhere. I thought I could share some of my experiences which informed how I designed this new blog, which uses [Hugo](https://gohugo.io/), to try and make writing simple.
 
 ## Past instances of writing things
 
-An early piece of technical writing I did was to write [a 6-part series](https://bitbucket.org/twwright/libgdx-labs/src/master/) of instructional tutorials for game programming in Java using [LibGDX](https://libgdx.com/) for workshops at university. Stepping tactfully over whether these tutorials were any _good_, the process of writing them was a disaster. They were written in `.docx` documents (callouts, code snippets, and all), exported into `.pdf`, and distributed by... I don't actually remember how they were distributed.
+An early piece of technical writing I did was to write [a 6-part series](https://bitbucket.org/twwright/libgdx-labs/src/master/) of instructional tutorials for game programming in Java using [LibGDX](https://libgdx.com/) for workshops at university. Stepping tactfully over whether these tutorials were any _good_, the process of writing them was a disaster. They were painstakingly written in `.docx` documents (callouts, code snippets, and all), exported into `.pdf`, and distributed by email or shared network drive.
 
-2/10, would only try again with the boundless energy of youth.
+Terrible experience, 2/10, would only try again with the boundless energy of youth.
 
 {{<figure src="./libgdx.png" title="Manual code snippets in Word, never again" >}}
 
-As part of my studies I produced an [honours thesis on deep reinforcement learning](https://www.linkedin.com/in/tomwwright/overlay/1484197574467/single-media-viewer/?profileId=ACoAABJ9FNMB9NKSphcuzo057sqffa4_S7x8dwI). Academics in the sciences will know that [LaTeX](https://www.latex-project.org/) is a common standard for publication typesetting. I found myself writing on [ShareLaTeX](https://www.sharelatex.com/) (now [Overleaf](https://overleaf.com)), an online platform. This allowed me to sidestep a number of wooly considerations in setting up a LaTeX desktop editor, at the cost of needing to be online whenever I was writing. No online platform could save me, however, from the experience of _writing LaTeX_ itself (_shudder_).
+As part of my studies I produced an [honours thesis on deep reinforcement learning](https://www.linkedin.com/in/tomwwright/overlay/1484197574467/single-media-viewer/?profileId=ACoAABJ9FNMB9NKSphcuzo057sqffa4_S7x8dwI). In the sciences [LaTeX](https://www.latex-project.org/) is a common standard for publication typesetting. I wrote my thesis using [ShareLaTeX](https://www.sharelatex.com/) (now [Overleaf](https://overleaf.com)), an online platform. This simplified getting started, sidestepping a number of wooly considerations in setting up a LaTeX desktop editor, but tied me to being online whenever I was writing. No online platform could save me, however, from the experience of _writing LaTeX_ itself (_shudder_).
 
 {{<figure src="./latex.png" title="Yep, still strikes fear into the heart years later" >}}
 
-Some time later, I took to writing things (or, blogging, if we must call it that) on [Medium](https://medium.com/@tomwwright). I don't know _why_, given at the time I was learning and using a lot of [Ansible](https://www.ansible.com/). Better to forget.
+Some time later, I wrote some articles (or, blogged, if we must call it that) on [Medium](https://medium.com/@tomwwright). I don't know _why_, given at the time I was learning and using a lot of [Ansible](https://www.ansible.com/). Better to forget.
 
-Medium was (and probably remains) a successful platform because it provided a robust visual Markdown-ish writing experience, a great reading experience, reader comments, and excellent SEO. At the time, it was also a primarily free platform. Unfortunately, these things often have to come to an end on the modern web and a rising tide of "members only" content and monetisation curbed my enthusiasm for the platform.
+Medium was a successful platform because it combined a robust and elegant Markdown-ish writing experience, a great reading experience, reader comments, and excellent SEO. At the time, it was also a primarily free platform. Unfortunately, these things often have to come to an end on the modern web and a rising tide of "members only" content and monetisation pushed me away from the platform.
 
 {{<figure src="./battery-life.png" title="Impressive, I know" >}}
 
-Following Medium, to explore getting away from any particularly online platform, I did bootstrap a static site built with [Hexo](https://github.com/hexojs/hexo). But that effort doesn't really belong in this post, because I _never wrote anything on it_.
+Following my experiences with Medium, I explored getting away from any particular online platform by bootstrapping a static site built with [Hexo](https://github.com/hexojs/hexo). That effort doesn't really belong in this post, however, because I _never wrote anything on it_.
 
 {{<figure src="./hexo.png" title="RIP" >}}
 
 ## Choosing Hugo for writing things down
 
-In revisiting writing, I wanted to continue with the sort of experiment I started with Hexo: something simple, that I could host myself, and powered by simple Markdown content. I had the following requirements:
+In coming back to writing, I wanted to continue exploring what I started with Hexo: something simple, that I could host myself, and powered by simple Markdown content. I had the following requirements:
 
 - Static site
 - Markdown content
@@ -51,7 +50,7 @@ In revisiting writing, I wanted to continue with the sort of experiment I starte
 - Don't be shit at SEO
 - Don't be shit or a pain in the neck in other ways (seriously, I will put you in the bin)
 
-At the end of the day, here's what I considered and tried:
+Here is what I considered and tried:
 
 ### Hexo
 
@@ -59,7 +58,7 @@ At the end of the day, here's what I considered and tried:
 
 ### Docsify
 
-[Docsify](https://docsify.js.org/#/) is actually as magical as it sounds. Create an `index.html`, upload it along with some `.md` files and it just works. I've used it in the past to great success creating [a mini-Wiki thing](https://tworealms.tomwwright.com/) of notes and characters for a tabletop roleplaying group.
+[Docsify](https://docsify.js.org/#/) is actually as magical as it sounds. Create an `index.html`, upload it along with some `.md` files, and it just works. I've used it in the past to great success creating [a mini-Wiki thing](https://tworealms.tomwwright.com/) of notes and characters for a tabletop roleplaying group.
 
 The issue with `docsify` is that, given the content is generated dynamically, the SEO is essentially non-existent. Less than ideal for a blog.
 
@@ -109,6 +108,10 @@ The solution was to configure the Amplify build to install Go prior to running `
 
 {{< github-code "https://raw.githubusercontent.com/tomwwright/hugo-blog/main/amplify.yaml" >}}
 
+### Writing content with VS Code
+
+For the time being I am content with the writing experience of [VS Code](https://code.visualstudio.com/) thanks to [Zen Mode](https://code.visualstudio.com/docs/getstarted/userinterface#_zen-mode).
+
 ---
 
-_That's all for now folks, thanks for reading. In returning to writing I'm acutely aware of a sense that I'm going to churn out some dreadfully shit content while I knock off the rust. Here's hoping it gets better if I stick with it._
+_That's all for now folks, thanks for reading. In returning to writing I'm acutely aware of a looming sense that I'm going to churn out some dreadfully shit content while I knock off the rust. Here's hoping it gets better if I stick with it._
