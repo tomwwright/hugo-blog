@@ -1,6 +1,6 @@
 ---
 title: 'Creating a new Hugo blog'
-date: 2024-05-30T22:42:37+10:00
+date: 2024-06-02T22:42:37+10:00
 tags:
   - Writing
   - Tech
