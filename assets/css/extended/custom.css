@@ -4,7 +4,7 @@
   --code-block-bg: rgb(49, 54, 63);
   --theme: rgb(240, 240, 240);
   --top-margin: 32px;
-  --header-height: 96px;
+  --header-height: 72px;
   --title-weight: 300;
   --heading-weight: 400;
 }
@@ -33,15 +33,15 @@ h1,h2,h3,h4 {
 }
 
 .logo a {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 300;
   font-weight: var(--title-weight);
 }
 
 .logo svg {
-  height: 96px;
-  width: 96px;
-  padding-right: 8px;
+  height: 72px;
+  width: 72px;
+  padding-right: 4px;
 }
 
 .logo svg path {
